@@ -165,7 +165,7 @@ class YouTube extends React.Component {
 
   render() {
     return (
-      <div id={this._containerId} />
+      <div {...this.props} id={this._containerId} />
     );
   }
 }
